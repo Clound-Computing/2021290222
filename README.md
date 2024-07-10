@@ -41,3 +41,7 @@ python evaluate.py --model_file ../pretrained_weights/GossipcopIUR/model.tar.gz 
 | :---: | :---: | :---: |
 | Multi (Restoration-200K) | multi.jsonnet | [multi.tar.gz](https://drive.google.com/file/d/1uRrbpqOw1Nga1maSnX0gWF1kSp0ncB48/view?usp=share_link) |
 GossipcopIUR用同一个模型，但是要放在'../pretrained_weights/GossipcopIUR/'目录下
+
+### Acknowledgement
+
+We refer to the code of [RUN](https://github.com/microsoft/ContextualSP/tree/master/incomplete_utterance_rewriting). Thanks for their contributions.
