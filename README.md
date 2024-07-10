@@ -31,7 +31,7 @@ pip install -r requirement.txt
 ```concolse
 python evaluate.py --model_file ../pretrained_weights/multi/model.tar.gz --test_file ../dataset/Multi/test.txt
 ```
-在'src'目录下输入指令来查看原数据集的评价，生成的数据在目录'../pretrained_weights/GossipcopIUR/model.tar.gz.json'
+在'src'目录下输入指令来查看新数据集的评价，生成的数据在目录'../pretrained_weights/GossipcopIUR/model.tar.gz.json'
 ```concolse
 python evaluate.py --model_file ../pretrained_weights/GossipcopIUR/model.tar.gz --test_file ../dataset/Gossipcop_IUR/GossipcopIUR.txt
 ```
